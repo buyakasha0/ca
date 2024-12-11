@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>End Poverty</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            position: relative;
+            text-align: center;
+        }
+        header img {
+            width: 100%;
+            height: auto;
+            opacity: 0.7;
+        }
+        header .header-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: rgb(19, 18, 18);
+        }
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+    
+        nav {
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            position: relative;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: rgb(131, 113, 113);
+            padding: 8px 16px;
+            border-radius: 5px;
+        }
+        nav ul li a:hover {
+            background-color: #5c5757;
+        }
+        
+        nav ul li ul {
+            display: none;
+            position: absolute;
+            top: 35px;
+            left: 0;
+            background-color: #333;
+            min-width: 180px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            border-radius: 5px;
+        }
+        nav ul li:hover > ul {
+            display: block;
+        }
+        nav ul li ul li a {
+            padding: 10px;
+            text-align: left;
+        }
+        
+        footer {
+            text-align: center;
+            background-color: #806c6c;
+            color: white;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        footer h1 {
+            margin: 0;
+        }
+
+        
+        section#contact {
+            padding: 20px;
+            margin: 20px auto;
+            width: 50%;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section#contact h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 10px 15px;
+            background-color: #46a049;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #399739;
+        }
+
+        .error {
+            color: red;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="povert image.jpg" alt="Poverty image" style="width: 100%; height: auto; opacity: 0.7;">
+        <div class="header-content">
+            <h1>End Poverty</h1>
+            
+            <nav>
+                <ul>
+                    <li><a href="#about">What is Poverty?</a></li>
+                    <li><a href="#action">How Can You Help?</a></li>
+                    <li><a href="#statistics">Global Poverty Statistics</a></li>
+                    <li><a href="#awareness">Poverty Awareness</a></li>
+                    <li>
+                        <a href="#">Navigation</a>
+                        <ul>
+                            <li><a href="test.html">Solutions?</a></li>
+                            <li><a href="doc.html">how you can help</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    
+    <section id="about">
+        <h2>What is Poverty?</h2>
+        <p>
+            Poverty is about not having enough money to meet basic needs including food, clothing, and shelter. However, poverty is much more than just not having enough money. The World Bank Organization describes poverty in this way: “Poverty is the lack of being able to eat. Poverty is lack of shelter. Poverty is the condition in which individuals or groups lack the financial resources and access to basic necessities needed for a decent standard of living. These necessities often include food, clean water, shelter, healthcare, education, and clothing. Poverty can manifest in various forms, ranging from absolute poverty (where people lack the basic necessities to survive) to relative poverty (where people may have enough for survival but still struggle compared to others in their society).
+        </p>
+    </section>
+
+    
+
+    <section id="action">
+        <h2>How Can You Help?</h2>
+        <p>Click the button below to learn about our plans and how you can contribute:</p>
+        <img src="sd.png" alt="image of poverty" style="width: 400px; height: auto; margin: 0 auto; display: block;">
+        <a href="https://www.un.org/sustainabledevelopment/poverty/" target="_blank">
+            <button>Click Here to Learn More</button>
+        </a>
+    </section>
+
+    <section id="statistics">
+        <h2>Global Poverty Statistics</h2>
+        <p>
+            A lot of people live in poverty around the world. In Ireland alone, around 560,000 people live in poverty, and globally, over 700 million people live in poverty. This is 10% of the world population, and they survive on less than 1 euro a day. According to the United Nations, efforts are being made to help these people by increasing access to healthcare, education, clean water, and economic opportunities.
+        </p>
+        <div id="chart-container">
+            <img src="poverty rates.jpg" alt="Poverty rates by region" style="width: 600px; height: auto; margin: 0 auto; display: block;">
+        </div>
+    </section>
+
+    <section id="awareness">
+        <h2>Raising Awareness About Poverty</h2>
+        <div class="container">
+            <div class="content">
+                <h2>The Reality of Poverty</h2>
+                <img src="reality of poverty.jpg" alt="image of reality of poverty" style="width: 400px; height: auto; margin: 0 auto; display: block;">
+                <p>Poverty affects millions of people around the world. It manifests in different forms, including lack of access to basic necessities such as food, clean water, and shelter.</p>
+            </div>
+            <div class="content">
+                <h2>Children in Poverty</h2>
+                <img src="children in poverty.jpg" alt="image of children in poverty" style="width: 400px; height: auto; margin: 0 auto; display: block;">
+                <p>Children living in poverty are particularly vulnerable. They often lack proper nutrition, healthcare, and education, which can affect their entire future.</p>
+            </div>
+            <div class="content">
+                <h2>Rural Poverty</h2>
+                <img src="rural povert.jpg" alt="image of rural poverty" style="width: 400px; height: auto; margin: 0 auto; display: block;">
+                <p>Rural poverty is another issue. People in remote rural areas often have limited access to resources like clean water, education, and healthcare.</p>
+            </div>
+            <div class="content">
+                <h2>Impact of Global Crises</h2>
+                <img src="impact of poverty.jpg" alt="image of impact of poverty" style="width: 400px; height: auto; margin: 0 auto; display: block;">
+                <p>Global crises, such as pandemics or conflicts, can push vulnerable communities deeper into poverty, making it harder to escape poverty during these times.</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name">
+            <span id="nameError" class="error">Please enter your name.</span>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email">
+            <span id="emailError" class="error">Please enter a valid email address.</span>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your Message"></textarea>
+            <span id="messageError" class="error">Please enter a message.</span>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <h1>&copy; End Poverty</h1>
+    </footer>
+
+    <script>
+        
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();  
+
+            let isValid = true;
+
+            
+            const name = document.getElementById('name');
+            const nameError = document.getElementById('nameError');
+            if (name.value.trim() === '') {
+                nameError.style.display = 'block';
+                isValid = false;
+            } else {
+                nameError.style.display = 'none';
+            }
+
+            
+            const email = document.getElementById('email');
+            const emailError = document.getElementById('emailError');
+            const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+            if (!emailPattern.test(email.value.trim())) {
+                emailError.style.display = 'block';
+                isValid = false;
+            } else {
+                emailError.style.display = 'none';
+            }
+
+            
+            const message = document.getElementById('message');
+            const messageError = document.getElementById('messageError');
+            if (message.value.trim() === '') {
+                messageError.style.display = 'block';
+                isValid = false;
+            } else {
+                messageError.style.display = 'none';
+            }
+
+            
+            if (isValid) {
+                alert('Form submitted successfully!');
+                
+            }
+        });
+    </script>
+
+</body>
+</html>
